@@ -423,8 +423,8 @@ BLR = {
 	color_ui = rgb { 180 220 190 }
 }
 MAN = {
-	color = rgb { 124  42  50 }
-	color_ui = rgb { 124  42  50 }
+	color = rgb { 158  26  39 }
+	color_ui = rgb { 158  26  39 }
 }
 ANG = {
 	color = rgb { 37 140 61 }
