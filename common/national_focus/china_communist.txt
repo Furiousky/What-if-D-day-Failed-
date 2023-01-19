@@ -1,0 +1,153 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = china_communist_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PRC
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 20 y = 1000 }
+
+	focus = {
+		id = PRC_long_lasting_insurgency
+		icon = GFX_focus_generic_soviet_politics
+		#prerequisite = { focus = PRC_china_medical_university }
+		x = 15
+		y = -1
+		#relative_position_id = PRC_literacy_programs
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}
+	focus = {
+		id = PRC_soviet_funded_rebellion
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = PRC_long_lasting_insurgency }
+		x = -1
+		y = 1.5
+		relative_position_id = PRC_long_lasting_insurgency
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}	
+	focus = {
+		id = PRC_secret_eurasian_pact
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = PRC_long_lasting_insurgency }
+		x = 1
+		y = 1
+		relative_position_id = PRC_long_lasting_insurgency
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}		
+	focus = {
+		id = PRC_machuria_liberation
+		icon = GFX_goal_support_fourth_int
+		prerequisite = { focus = PRC_secret_eurasian_pact }
+		prerequisite = { focus = PRC_soviet_funded_rebellion }
+		x = -1
+		y = 1
+		relative_position_id = PRC_secret_eurasian_pact
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}			
+}
