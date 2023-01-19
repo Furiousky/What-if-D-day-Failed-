@@ -379,13 +379,16 @@ create_import = {
 set_convoys = 400
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 100
+	democratic = 80
+	fascism = 5
+	communism = 5
+	neutrality = 10
 }
 
 recruit_character = JAP_tetsu_katayama
