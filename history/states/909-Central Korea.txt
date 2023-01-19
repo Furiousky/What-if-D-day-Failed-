@@ -3,8 +3,9 @@ state={
 	name="STATE_909"
 	
 	history={
-		owner = KOR
+		owner = PRK
 		add_core_of = KOR
+		add_core_of = PRK
 	}
 	
 	provinces={

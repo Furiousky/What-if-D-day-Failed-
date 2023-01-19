@@ -1,5 +1,9 @@
 #reload countrycolors
 
+PRK = {
+	color = rgb { 213  20  36 }
+	color_ui = rgb { 213  20  36 }
+}
 GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
@@ -258,9 +262,8 @@ USA = {
 	color_ui = rgb { 87 160 255 }
 }
 MON = {
-	#color = HSV { 0.1 0.15 0.4 }
-	color = rgb { 108 140 42 }
-	color_ui = rgb { 209 247 133 }
+	color = rgb { 158  26  39 }
+	color_ui = rgb { 158  26  39 }
 }
 MEN = {
 	color = rgb { 185  255  152 }
