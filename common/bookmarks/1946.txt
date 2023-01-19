@@ -1,13 +1,13 @@
 bookmarks = {
 	bookmark = {
-		name = "BLITZKRIEG_NAME"
-		desc = "BLITZKRIEG_DESC"
-		date = 1939.8.14.12
-		picture = "GFX_select_date_1939"
-		default_country = "GER"
+		name = "Scorching Conflict Bookmark"
+		desc = "SCORCHING_CONFLICT_BOOKMARK_LOC"
+		date = 1946.1.1.1
+		picture = "GFX_scorching_conflict_bookmark"
+		default_country = "ENG"
 	
 		FRA = {
-			history = FRA_BLITZKRIEG_DESC
+			history = FRA_SC_DESC
 			ideology = democratic
 			ideas={
 				FRA_victors_of_wwi
@@ -68,34 +68,6 @@ bookmarks = {
 				GER_ussr_war_goal
 			}
 		}
-		ITA = {
-			history = ITA_BLITZKRIEG_DESC
-			ideology = fascism
-			ideas={
-				vittorio_emanuele_albania_ethiopia
-				ITA_camicie_nere
-				ITA_pact_of_steel
-			}
-			focuses = {
-				ITA_battaglioni_d_assalto
-				ITA_by_blood_alone
-				ITA_ferrea_mole_ferreo_cuore
-			}			
-		}
-		JAP = {
-			history = JAP_BLITZKRIEG_DESC
-			ideology = fascism
-			ideas={
-				state_shintoism
-				JAP_guide_the_zaibatsus
-				JAP_militarism
-			}	
-			focuses = {
-				JAP_the_zero
-				JAP_warrior_spirit
-				JAP_strike_on_the_southern_resource_area
-			}		
-		}
 		SOV = {
 			history = SOV_BLITZKRIEG_DESC
 			ideology = communism
@@ -108,6 +80,34 @@ bookmarks = {
 				SOV_found_the_comecon
 				SOV_father_of_nations
 				SOV_patriarch_of_all_russia
+			}
+		}
+			CHI = {
+			history = "CHI_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {
+				CHI_army_corruption_2
+				CHI_hyper_inflation_1
+				CHI_nine_power_treaty
+			}
+			focuses = {
+				CHI_renegotiate_the_unequal_treaties
+				CHI_invite_the_flying_tigers
+				CHI_war_of_resistance
+			}
+		}
+		PRC = {
+			history = "PRC_BLITZKRIEG_DESC"
+			ideology = communism
+			ideas = {
+				PRC_the_long_march_1
+				PRC_low_popular_support_1
+				PRC_power_struggles
+			}
+			focuses = {
+				PRC_infiltration
+				PRC_maoism
+				PRC_anti_japanese_expedition
 			}
 		}
 
@@ -229,36 +229,6 @@ bookmarks = {
 				YUG_join_axis
 				YUG_join_allies
 				YUG_the_ik_3
-			}
-		}
-		"CHI"={
-			minor = yes
-			history = "CHI_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
-				CHI_army_corruption_2
-				CHI_hyper_inflation_1
-				CHI_nine_power_treaty
-			}
-			focuses = {
-				CHI_renegotiate_the_unequal_treaties
-				CHI_invite_the_flying_tigers
-				CHI_war_of_resistance
-			}
-		}
-		"PRC"={
-			minor = yes
-			history = "PRC_BLITZKRIEG_DESC"
-			ideology = communism
-			ideas = {
-				PRC_the_long_march_1
-				PRC_low_popular_support_1
-				PRC_power_struggles
-			}
-			focuses = {
-				PRC_infiltration
-				PRC_maoism
-				PRC_anti_japanese_expedition
 			}
 		}
 		"MAN"={

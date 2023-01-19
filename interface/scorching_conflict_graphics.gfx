@@ -1,0 +1,6 @@
+spriteTypes = {
+		spriteType = {
+		name = "GFX_scorching_conflict_bookmark"
+		texturefile = "gfx/interface/scorching_conflict.dds"
+	}
+}
