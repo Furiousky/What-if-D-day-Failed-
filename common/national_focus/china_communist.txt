@@ -58,7 +58,7 @@ focus_tree = {
 		icon = GFX_focus_generic_soviet_politics
 		prerequisite = { focus = PRC_long_lasting_insurgency }
 		x = -1
-		y = 1.5
+		y = 1
 		relative_position_id = PRC_long_lasting_insurgency
 
 		cost = 5
@@ -118,7 +118,7 @@ focus_tree = {
 		}
 	}		
 	focus = {
-		id = PRC_machuria_liberation
+		id = PRC_machuria_deliverance
 		icon = GFX_goal_support_fourth_int
 		prerequisite = { focus = PRC_secret_eurasian_pact }
 		prerequisite = { focus = PRC_soviet_funded_rebellion }
@@ -149,5 +149,707 @@ focus_tree = {
 			add_political_power = 120
 
 		}
-	}			
-}
+	}	
+	focus = {
+		id = PRC_chairman_mao
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = PRC_machuria_deliverance }
+		x = -3
+		y = 1
+		relative_position_id = PRC_machuria_deliverance
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}	
+	focus = {
+		id = PRC_utilize_liberated_zones
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = PRC_chairman_mao }
+		x = -1
+		y = 1
+		relative_position_id = PRC_chairman_mao
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}	
+	focus = {
+		id = PRC_under_military_leadership
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = PRC_utilize_liberated_zones }
+		x = -2
+		y = 1
+		relative_position_id = PRC_utilize_liberated_zones
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}		
+	focus = {
+		id = PRC_captured_japanese_weapons
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = PRC_chairman_mao }
+		x = 1
+		y = 1
+		relative_position_id = PRC_chairman_mao
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}	
+	focus = {
+		id = PRC_silence_oppurtunists
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = PRC_utilize_liberated_zones }
+		x = 0
+		y = 1
+		relative_position_id = PRC_utilize_liberated_zones
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}	
+	focus = {
+		id = PRC_strengthen_communist_ties
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = PRC_captured_japanese_weapons }
+		x = 0
+		y = 1
+		relative_position_id = PRC_captured_japanese_weapons
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}
+	focus = {
+		id = PRC_land_reform_policy
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = PRC_silence_oppurtunists }
+		prerequisite = { focus = PRC_strengthen_communist_ties }
+		x = 1
+		y = 1
+		relative_position_id = PRC_silence_oppurtunists
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}
+	focus = {
+		id = PRC_war_of_liberation
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = PRC_machuria_deliverance }
+		x = 3
+		y = 1
+		relative_position_id = PRC_machuria_deliverance
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}
+	focus = {
+		id = PRC_slow_and_steady
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = PRC_war_of_liberation }
+		mutually_exclusive = { focus = PRC_securing_our_win }
+		x = 0
+		y = 1
+		relative_position_id = PRC_war_of_liberation
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}
+	focus = {
+		id = PRC_clearing_out_remnants
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = PRC_slow_and_steady }
+		x = 0
+		y = 1
+		relative_position_id = PRC_slow_and_steady
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}
+	focus = {
+		id = PRC_a_new_expedition
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = PRC_clearing_out_remnants }
+		x = 0
+		y = 1
+		relative_position_id = PRC_clearing_out_remnants
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}	
+	focus = {
+		id = PRC_refining_plans
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = PRC_clearing_out_remnants }
+		x = 2
+		y = 1
+		relative_position_id = PRC_clearing_out_remnants
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}		
+	focus = {
+		id = PRC_defensive_reserves
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = PRC_refining_plans }
+		x = 0
+		y = 1
+		relative_position_id = PRC_refining_plans
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}		
+	focus = {
+		id = PRC_securing_our_win
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = PRC_war_of_liberation }
+		mutually_exclusive = { focus = PRC_slow_and_steady }
+		x = 4
+		y = 1
+		relative_position_id = PRC_war_of_liberation
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}
+	focus = {
+		id = PRC_reach_pingjin
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = PRC_securing_our_win }
+		x = 0
+		y = 1
+		relative_position_id = PRC_securing_our_win
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}
+	focus = {
+		id = PRC_protecting_the_east
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = PRC_securing_our_win }
+		x = 2
+		y = 1
+		relative_position_id = PRC_securing_our_win
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}	
+	focus = {
+		id = PRC_advance_in_menggu
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = PRC_protecting_the_east }
+		x = 0
+		y = 1
+		relative_position_id = PRC_protecting_the_east
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}	
+	focus = {
+		id = PRC_reinforce_our_gains
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = PRC_protecting_the_east }
+		x = 3
+		y = 1
+		relative_position_id = PRC_protecting_the_east
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}	
+	focus = {
+		id = PRC_combative_militia
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = PRC_reinforce_our_gains }
+		x = 0
+		y = 1
+		relative_position_id = PRC_reinforce_our_gains
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}		
+	focus = {
+		id = PRC_coastal_domination
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = PRC_reach_pingjin }
+		x = 0
+		y = 1
+		relative_position_id = PRC_reach_pingjin
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}
+	focus = {
+		id = PRC_achieve_material_superiority
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = PRC_coastal_domination }
+		prerequisite = { focus = PRC_advance_in_menggu }	
+		x = 1
+		y = 1
+		relative_position_id = PRC_coastal_domination
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}
+	focus = {
+		id = PRC_yangtze_campaign
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = PRC_achieve_material_superiority }
+		prerequisite = { focus = PRC_combative_militia }	
+		x = 2
+		y = 1
+		relative_position_id = PRC_achieve_material_superiority
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = CHI
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+
+		}
+	}		
+}	
