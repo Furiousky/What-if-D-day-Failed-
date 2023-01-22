@@ -1,0 +1,25 @@
+ideas = {
+
+	country = {
+
+		soviet_influenced_communism = {
+
+			name = soviet_influenced_communism
+
+			picture = jap_the_unthinkable_option
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			allowed = { original_tag = PRC }
+
+			removal_cost = -1
+
+			modifier = {
+				communism_acceptance = 50
+			}
+		}
+
+	}
+}	
