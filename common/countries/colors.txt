@@ -25,25 +25,25 @@ FRA = {
 	color_ui = rgb { 74 147 255 }
 }
 LUX = {
-	color = rgb { 65 175 179 }
-	color_ui = rgb { 85 228 233 }
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
 }
-BEL = { color 	 = rgb { 193 171 8  }
-		color_ui = rgb { 251 222 10 }
+BEL = { color 	 = rgb { 125 13 24  }
+		color_ui = rgb { 125 13 24 }
 	  }
-HOL = {	color = rgb { 203 138 74 }
-		color_ui = rgb { 255 179 96 }
+HOL = {	color = rgb { 125 13 24 }
+		color_ui = rgb { 125 13 24 }
 }
-CZE = {	color = rgb { 54 167 156 }
-		color_ui = rgb { 70 217 203 }
+CZE = {	color = rgb { 125 13 24 }
+		color_ui = rgb { 125 13 24 }
 }
 POL = {
-	color = rgb { 214 102 139 }
-	color_ui = rgb { 255 120 138 }
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
 }
 AUS = {
-	color = rgb { 194 198 215 }
-	color_ui = rgb { 255 255 255 }
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
 }
 LIT = {
 	color = rgb { 219 219 119 }
@@ -66,8 +66,8 @@ ITA = {
 	color_ui = rgb { 87 165 82 }
 }
 ROM = {
-	color = rgb { 215 196 72 }
-	color_ui = rgb { 255 255 120 }
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
 }
 YUG = {
 	color = rgb { 72 73 126 }
@@ -94,28 +94,28 @@ NOR = {
 	color_ui = rgb { 144 92 92 }
 }
 DEN = {
-	color = rgb { 153 116 93 }
-	color_ui = rgb { 199 151 121 }
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
 }
 BUL = {
-	color = rgb { 51 155 0 }
-	color_ui = rgb { 210 147 217 }
+	color = rgb {125 13 24 }
+	color_ui = rgb { 125 13 24 }
 }
 POR = {
 	color = rgb { 39 116 70 }
 	color_ui = rgb { 51 151 91 }
 }
 FIN = {
-	color = rgb { 205 212 228 }
-	color_ui = rgb { 255 255 255 }
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
 }
 IRE = {
 	color = rgb { 80 159 90 }
 	color_ui = rgb { 104 207 117 }
 }
 HUN = {
-	color = rgb { 249 126 98 }
-	color_ui = rgb { 255 164 127 }
+	color = rgb { 125 13 24 }
+	color_ui = rgb {125 13 24 }
 }
 AFG = {
 	color = rgb { 64 160 167 }
@@ -462,10 +462,10 @@ PAK = {
 #    color = rgb { 195 236 230 } # The colors are set to be more are less what we are used to
 #    color_ui = rgb { 225 255 255 }
 #}
-#DDR = {
-#    color = rgb { 120 150 80 }
-#    color_ui = rgb { 150 180 120 }
-#}
+DDR = {
+    color = rgb { 125 13 24 }
+    color_ui = rgb { 125 13 24 }
+}
 KOR = {
 	color = rgb { 255  240  195 }
 	color_ui = rgb { 255 248 229 }	
@@ -877,4 +877,13 @@ SPM = {
 TTS = {
 	color = rgb { 230 230 0 }
 	color_ui = rgb { 179 179 0 }
+}
+############### Custom
+SOF = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
+SOI = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
 }

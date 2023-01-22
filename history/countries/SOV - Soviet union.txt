@@ -358,31 +358,71 @@ if = {
     }
 	set_autonomy = {
 		target = POL
-		autonomous_state = autonomy_integrated_puppet
+		autonomous_state = autonomy_satellite
 		freedom_level = 0.2
 	}
 		set_autonomy = {
 		target = BUL
-		autonomous_state = autonomy_integrated_puppet
-		freedom_level = 0.2
-	}
-		set_autonomy = {
-		target = GER
-		autonomous_state = autonomy_integrated_puppet
+		autonomous_state = autonomy_satellite
 		freedom_level = 0.2
 	}
 		set_autonomy = {
 		target = FIN
-		autonomous_state = autonomy_integrated_puppet
+		autonomous_state = autonomy_satellite
 		freedom_level = 0.2
 	}
 		set_autonomy = {
 		target = HUN
-		autonomous_state = autonomy_integrated_puppet
+		autonomous_state = autonomy_satellite
 		freedom_level = 0.2
 	}
 		set_autonomy = {
 		target = ROM
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.2
+	}
+		set_autonomy = {
+		target = CZE
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.2
+	}
+		set_autonomy = {
+		target = LUX
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.2
+	}
+		set_autonomy = {
+		target = BEL
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.2
+	}
+		set_autonomy = {
+		target = HOL
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.2
+	}
+		set_autonomy = {
+		target = AUS
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.2
+	}
+		set_autonomy = {
+		target = DEN
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.2
+	}
+		set_autonomy = {
+		target = DDR
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+		set_autonomy = {
+		target = SOF
+		autonomous_state = autonomy_integrated_puppet
+		freedom_level = 0.2
+	}
+		set_autonomy = {
+		target = SOI
 		autonomous_state = autonomy_integrated_puppet
 		freedom_level = 0.2
 	}

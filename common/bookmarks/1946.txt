@@ -53,9 +53,9 @@ bookmarks = {
 			}
 			
 		}
-		GER = {
+		DDR = {
 			history = GER_BLITZKRIEG_DESC
-			ideology = fascism
+			ideology = communism
 			ideas = {
 				sour_loser
 				general_staff

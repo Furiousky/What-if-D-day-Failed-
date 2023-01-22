@@ -4154,3 +4154,17 @@
  TTS_neutrality_ADJ:0 "Sicilian"
  TTS_subject_ADJ:0 "Sicilian"
 
+SOF_SOV_communism_autonomy_integrated_puppet:0 "Soviet Occupied France"
+SOF_SOV_communism_autonomy_integrated_puppet_ADJ:0 "French"
+
+SOI_SOV_communism_autonomy_integrated_puppet:0 "Soviet Occupied Italy"
+SOI_SOV_communism_autonomy_integrated_puppet_ADJ:0 "Italians"
+
+POL_SOV_communism_autonomy_integrated_puppet:0 "Polish People's Republic"
+POL_SOV_communism_autonomy_integrated_puppet_ADJ:0 "Polishs"
+
+DDR_SOV_communism_autonomy_dominion:0 "Deutsche Demokratische Republik"
+DDR_SOV_communism_autonomy_dominion_ADJ:0 "Germans"
+
+DEN_SOV_communism_autonomy_dominion:0 "Dansk Folkerepublik"
+DEN_SOV_communism_autonomy_dominion_ADJ:0 "Danish"
