@@ -23,11 +23,11 @@ idea_categories = {
 		ledger = hidden
 	}
 	
-	government = {
+	government_and_policies = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
-		slot = interventionism 
+		slot = foreign_policies 
 		
 		
 		ledger = civilian

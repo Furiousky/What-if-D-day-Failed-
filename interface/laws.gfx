@@ -1,0 +1,12 @@
+spriteTypes = {
+
+    SpriteType = {
+		name = "GFX_idea_neutral_fa"
+		texturefile = "gfx/interface/ideas/neutrality.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_interventionism"
+		texturefile = "gfx/interface/ideas/interventionism.dds"
+	}
+
+}

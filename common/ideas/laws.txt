@@ -1,0 +1,52 @@
+ideas = {
+ foreign_policies = {
+     interventionism = {
+        allowed = {
+            always = yes
+        }
+        #available = {
+
+        #}
+        cost = 0 
+        removal_cost = -1 
+        level = 3
+        modifiers = {
+                justify_war_goal_time = -0.3
+                generate_wargoal_tension = -0.3
+
+        }
+        #allowed_to_remove = { 
+
+        #}
+
+        cancel_if_invalid = yes 
+
+
+
+        }
+    neutral_fa = {
+        allowed = {
+            always = yes
+        }
+        #available = {
+
+        #}
+        cost = 0 
+        removal_cost = -1 
+        level = 1
+        modifiers = {
+         
+
+        }
+        default= yes 
+        #allowed_to_remove = { 
+
+        #}
+
+        cancel_if_invalid = yes 
+
+
+
+        }
+    }
+}

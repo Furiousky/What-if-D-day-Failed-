@@ -3,6 +3,7 @@
 #### NO STEP BACK
 ####
 
+	
 
 #You don't want Russian party names? Just remove these lines
 set_party_name = {
@@ -355,6 +356,36 @@ if = {
 		target = MAN
 		autonomous_state = autonomy_satellite
     }
+	set_autonomy = {
+		target = POL
+		autonomous_state = autonomy_integrated_puppet
+		freedom_level = 0.2
+	}
+		set_autonomy = {
+		target = BUL
+		autonomous_state = autonomy_integrated_puppet
+		freedom_level = 0.2
+	}
+		set_autonomy = {
+		target = GER
+		autonomous_state = autonomy_integrated_puppet
+		freedom_level = 0.2
+	}
+		set_autonomy = {
+		target = FIN
+		autonomous_state = autonomy_integrated_puppet
+		freedom_level = 0.2
+	}
+		set_autonomy = {
+		target = HUN
+		autonomous_state = autonomy_integrated_puppet
+		freedom_level = 0.2
+	}
+		set_autonomy = {
+		target = ROM
+		autonomous_state = autonomy_integrated_puppet
+		freedom_level = 0.2
+	}
 }
 
 ### PROPAGANDA ###
