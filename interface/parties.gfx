@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_DDR_communism_group"
+		texturefile = "gfx/interface/ideologies/DDR/SOD.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_USA_liberalism"
+		texturefile = "gfx/interface/ideologies/USA/democrats.dds"
+	}
+}
