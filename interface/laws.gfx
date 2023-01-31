@@ -5,8 +5,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/neutrality.dds"
 	}
 	SpriteType = {
+		name = "GFX_idea_imperialism"
+		texturefile = "gfx/interface/ideas/imperialism.dds"
+	}
+	SpriteType = {
 		name = "GFX_idea_interventionism"
 		texturefile = "gfx/interface/ideas/interventionism.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_limited_intervention"
+		texturefile = "gfx/interface/ideas/limited_intervention.dds"
 	}
 
 }
