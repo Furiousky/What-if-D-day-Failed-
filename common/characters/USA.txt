@@ -9,7 +9,21 @@ characters={
 		country_leader={
 			ideology=liberalism
 			traits={ anti_communist }
-			expire="1972.12.26.1"
+			expire="1946.1.2.1"
+			id=-1
+		}
+	}
+		USA_congress={
+		name="United States Congress "
+		portraits={
+			civilian={
+				large= "/gfx/leaders/USA/congress.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			traits={ cabinet_crisis }
+			expire="never"
 			id=-1
 		}
 	}
