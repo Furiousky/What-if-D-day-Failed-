@@ -1,0 +1,8 @@
+spriteTypes = {
+
+    SpriteType = {
+		name = "GFX_truman_death"
+		texturefile = "gfx/interface/events/truman_death.dds"
+	}
+
+}

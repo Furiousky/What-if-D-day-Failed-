@@ -1,4 +1,32 @@
 characters={
+	USA_barkley={
+		name="Alben William Barkley"
+		portraits={
+			civilian={
+				large= "/gfx/leaders/USA/barkley.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			traits={ anti_communist }
+			expire="1956.30.4.1"
+			id=-1
+		}
+	}
+		USA_congress={
+		name="United States Congress "
+		portraits={
+			civilian={
+				large= "/gfx/leaders/USA/congress.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits={ cabinet_crisis }
+			expire="never"
+			id=-1
+		}
+	}
 	USA_harry_truman={
 		name="Harry S. Truman"
 		portraits={

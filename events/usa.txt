@@ -1,0 +1,38 @@
+add_namespace = usa
+
+#mister Truman gets killed
+country_event = {
+	id = usa.1
+	title = usa.1.t
+	desc = usa.1.d
+	picture = GFX_truman_death
+    fire_only_once = yes
+
+	is_triggered_only = yes
+    trigger = {
+        original_tag = USA
+        has_stability < 0.3 
+    }
+
+	option = {
+		name = usa.1.a		#let mr vice president take power
+		ai_chance = {
+			factor = 75
+		}
+        kill_country_leader = yes
+        recruit_character = USA_barkley
+		retire_ideology_leader = congress
+        
+	}
+
+	option = {
+		name = usa.1.b		#let congress take power
+		trigger = {  }
+		ai_chance = {
+			factor = 25
+		}
+        retire_country_leader = yes 
+		
+	}
+
+}
