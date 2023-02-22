@@ -20,7 +20,15 @@ state=
 			arms_factory = 2
 			industrial_complex = 2
 		}
-
+		
+		PRC= {
+                set_province_controller = province 1575 
+				set_province_controller = province 12078 
+				set_province_controller = province 4538 
+				set_province_controller = province 10421
+				set_province_controller = province 1027
+				set_province_controller = province 1438
+            }
 	}
 	provinces={
 		1027 1034 1180 1203 1438 1519 1531 1575 4074 4174 4469 4538 4634 7571 10367 10421 10480 10507 12078 12300 12344 12432 
