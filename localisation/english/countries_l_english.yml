@@ -4154,7 +4154,7 @@
  TTS_neutrality_ADJ:0 "Sicilian"
  TTS_subject_ADJ:0 "Sicilian"
 
-SOF_SOV_communism_autonomy_integrated_puppet:0 "People's Republic of Burgundy"
+SOF_SOV_communism_autonomy_integrated_puppet:0 "French Northern SSR"
 SOF_SOV_communism_autonomy_integrated_puppet_ADJ:0 "French"
 
 SOI_SOV_communism_autonomy_integrated_puppet:0 "Soviet Occupied Italy"
@@ -4169,3 +4169,4 @@ DDR_SOV_communism_autonomy_dominion_ADJ:0 "Germans"
 DEN_SOV_communism_autonomy_dominion:0 "Dansk Folkerepublik"
 DEN_SOV_communism_autonomy_dominion_ADJ:0 "Danish"
 
+FBE_democratic:0 "Free Belgian Governement"
