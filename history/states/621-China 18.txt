@@ -14,10 +14,6 @@ state={
 
 		}
 		
-	PRC= {
-                set_province_controller = province 7631 
-				set_province_controller = province 4525 
-            }
 
 	}
 
