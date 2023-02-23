@@ -7,4 +7,20 @@ spriteTypes = {
 		name = "GFX_ideology_USA_liberalism"
 		texturefile = "gfx/interface/ideologies/USA/democrats.dds"
 	}
+	spriteType = {
+		name = "GFX_ideology_FRA_liberalism"
+		texturefile = "gfx/interface/ideologies/FRA/gpf.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_SOV_stalinism"
+		texturefile = "gfx/interface/ideologies/SOV/stalin.dds"
+	}
+		spriteType = {
+		name = "GFX_ideology_ENG_conservatism"
+		texturefile = "gfx/interface/ideologies/ENG/coa.dds"
+	}
+		spriteType = {
+		name = "GFX_ideology_PRC_marxism"
+		texturefile = "gfx/interface/ideologies/PRC/pcc.dds"
+	}
 }

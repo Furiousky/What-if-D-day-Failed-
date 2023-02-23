@@ -93,7 +93,7 @@ focus_tree = {
 	focus = {
 		id = USA_state_of_navy
 		icon = GFX_focus_generic_self_management
-		x = 45
+		x = 44
 		y = 2
 		prerequisite = { focus = USA_army_review}
 
@@ -151,7 +151,7 @@ focus_tree = {
 	focus = {
 		id = USA_state_of_airforce
 		icon = GFX_focus_generic_self_management
-		x = 55
+		x = 56
 		y = 2
 		prerequisite = { focus = USA_army_review}
 
@@ -182,7 +182,7 @@ focus_tree = {
 		focus = {
 		id = USA_carriers_doctrines
 		icon = GFX_focus_generic_self_management
-		x = 43
+		x = 42
 		y = 3
 		prerequisite = { focus = USA_state_of_navy}
 
@@ -211,7 +211,7 @@ focus_tree = {
 			focus = {
 		id = USA_midway_class
 		icon = GFX_focus_generic_self_management
-		x = 43
+		x = 42
 		y = 4
 		prerequisite = { focus = USA_carriers_doctrines}
 
@@ -240,7 +240,7 @@ focus_tree = {
 				focus = {
 		id = USA_west_coast_dockyards
 		icon = GFX_focus_generic_self_management
-		x = 43
+		x = 42
 		y = 5
 		prerequisite = { focus = USA_midway_class}
 
@@ -269,7 +269,7 @@ focus_tree = {
 				focus = {
 		id = USA_legacy_of_enterprise
 		icon = GFX_focus_generic_self_management
-		x = 43
+		x = 42
 		y = 6
 		prerequisite = { focus = USA_west_coast_dockyards}
 
@@ -295,12 +295,77 @@ focus_tree = {
 			add_political_power = 150
 		}
 	}
+	#subarines
+		focus = {
+		id = USA_submarine_effort
+		icon = GFX_focus_generic_self_management
+		x = 44
+		y = 3
+		prerequisite = { focus = USA_state_of_navy}
+
+		mutually_exclusive = { focus =  }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+		focus = {
+		id = USA_commerce_raiding 
+		icon = GFX_focus_generic_self_management
+		x = 44
+		y = 4
+		prerequisite = { focus = USA_submarine_effort}
+
+		mutually_exclusive = { focus =  }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+
+
+
+
+
 	#marines
 	
 			focus = {
 		id = USA_marines_corps
 		icon = GFX_focus_generic_self_management
-		x = 47
+		x = 46
 		y = 3
 		prerequisite = { focus = USA_state_of_navy}
 
@@ -330,7 +395,7 @@ focus_tree = {
 				focus = {
 		id = USA_the_mistakes_from_dday
 		icon = GFX_focus_generic_self_management
-		x = 47
+		x = 46
 		y = 4
 		prerequisite = { focus = USA_marines_corps}
 
@@ -360,7 +425,7 @@ focus_tree = {
 		focus = {
 		id = USA_the_lecons_from_japan
 		icon = GFX_focus_generic_self_management
-		x = 47
+		x = 46
 		y = 5
 		prerequisite = { focus = USA_the_mistakes_from_dday}
 
@@ -390,7 +455,7 @@ focus_tree = {
 	focus = {
 		id = USA_usmc_expansion
 		icon = GFX_focus_generic_self_management
-		x = 47
+		x = 46
 		y = 6
 		prerequisite = { focus = USA_the_lecons_from_japan}
 
@@ -420,10 +485,11 @@ focus_tree = {
 		focus = {
 		id = USA_never_another_normandy
 		icon = GFX_focus_generic_self_management
-		x = 45
+		x = 44
 		y = 7
 		prerequisite = { focus = USA_usmc_expansion}
 		prerequisite = { focus = USA_legacy_of_enterprise}
+		prerequisite = { focus = USA_commerce_raiding}
 
 		mutually_exclusive = { focus =  }
 		cost = 10
@@ -448,4 +514,334 @@ focus_tree = {
 		}
 	
 	}
+
+	#army
+		focus = {
+		id = USA_mechanisation
+		icon = GFX_focus_generic_self_management
+		x = 50
+		y = 3
+		prerequisite = { focus = USA_state_of_army}
+	
+
+		mutually_exclusive = { focus =  }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+			focus = {
+		id = USA_artillery
+		icon = GFX_focus_generic_self_management
+		x = 48
+		y = 4
+		prerequisite = { focus = USA_state_of_army}
+	
+
+		mutually_exclusive = { focus =  }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+		focus = {
+		id = USA_infantery_equipement
+		icon = GFX_focus_generic_self_management
+		x = 52
+		y = 4
+		prerequisite = { focus = USA_state_of_army}
+	
+
+		mutually_exclusive = { focus =  }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+			focus = {
+		id = USA_This_Well_Defend
+		icon = GFX_focus_generic_self_management
+		x = 50
+		y = 5
+		prerequisite = { focus = USA_infantery_equipement}
+		prerequisite = { focus = USA_artillery}
+		prerequisite = { focus = USA_mechanisation}
+	
+
+		mutually_exclusive = { focus =  }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+#air 
+			focus = {
+		id = USA_invest_in_lockheed
+		icon = GFX_focus_generic_self_management
+		x = 54
+		y = 3
+		prerequisite = { focus = USA_state_of_airforce}
+
+
+		mutually_exclusive = { focus =USA_invest_in_boeing  }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+			focus = {
+		id = USA_invest_in_boeing
+		icon = GFX_focus_generic_self_management
+		x = 58
+		y = 3
+		prerequisite = { focus = USA_state_of_airforce}
+
+
+		mutually_exclusive = { focus =USA_invest_in_lockheed  }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+				focus = {
+		id = USA_cas
+		icon = GFX_focus_generic_self_management
+		x = 56
+		y = 4
+		prerequisite = { 
+	 		focus = USA_invest_in_lockheed
+	 		focus = USA_invest_in_boeing
+	 	}
+		
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+		focus = {
+		id = USA_nothing_can_beat_the_us_airforce
+		icon = GFX_focus_generic_self_management
+		x = 56
+		y = 6
+		prerequisite = { 
+	 		focus = USA_paratroopers
+	 	}
+		
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+		focus = {
+		id = USA_paratroopers
+		icon = GFX_focus_generic_self_management
+		x = 56
+		y = 5
+		prerequisite = { 
+	 		focus = USA_cas
+	 	}
+		
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+
+#Inteligence
+	focus = {
+		id = USA_found_cia
+		icon = GFX_focus_generic_self_management
+		x = 65
+		y = 1
+		allow_branch = { has_dlc = "La Resistance" }
+		prerequisite = { 
+	 	}
+		
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+
+
 }
