@@ -17,14 +17,13 @@ state={
 		}
 		
 		PRC= {
-                set_province_controller = province 12713 
-				set_province_controller = province 1976 
-				set_province_controller = province 4256 
+                set_province_controller = 12713 
+				set_province_controller = 1976 
+				set_province_controller = 4256 
             }
 
 	}
 
-	}
 	manpower=9000000
 	buildings_max_level_factor=1.000
 	state_category = town
