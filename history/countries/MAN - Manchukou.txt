@@ -116,6 +116,3 @@ set_popularities = {
 	neutrality = 15
 	fascism = 5
 }
-
-1939.1.1 = {
-}

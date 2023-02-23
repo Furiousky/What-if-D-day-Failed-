@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_selection_overlay"
+		texturefile = "gfx/interface/selection_overlay.dds"
+	}
+}

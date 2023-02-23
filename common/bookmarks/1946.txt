@@ -40,7 +40,16 @@ bookmarks = {
 				maud_focus
 			}
 			
+				}
+		
+				"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}	
+		
+				"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
 		}
+		
 
 		SOV = {
 			history = SOV_BLITZKRIEG_DESC
