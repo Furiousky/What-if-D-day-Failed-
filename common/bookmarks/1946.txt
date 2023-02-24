@@ -5,6 +5,7 @@ bookmarks = {
 		date = 1946.1.1.1
 		picture = "GFX_scorching_conflict_bookmark"
 		default_country = "ENG"
+		default = yes
 	
 
 		USA = {

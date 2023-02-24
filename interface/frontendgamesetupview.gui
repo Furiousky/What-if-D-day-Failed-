@@ -6,40 +6,40 @@ guiTypes = {
 		size = { width=1 height =1}
 	}
 
-	### bookmark entry
-	containerWindowType = {
-		name = "bookmark_entry"
-		position = { x= 0 y = 0 }
-		size = { width=232 height=211}
-		clipping = no
-		fade_time = 500
-		fade_type = linear
-
-		background = {
-			name = "background"
-			quadTextureSprite = "GFX_bookmark_entry_bg"
-			clicksound = click_checkbox
-		}
-
-		iconType = {
-			name = "icon"
-			spriteType = "GFX_select_date_1936"
-			position = { x = 27 y = 28 }
-			alwaystransparent = yes
-		}
-
-		instantTextBoxType = {
-			name = "date"
-			position = { x = 22 y = 147 }
-			font = "hoi_20b"
-			borderSize = {x = 0 y = 0}
-			text = "FE_BOOKMARK_DATE"
-			maxWidth = 185
-			maxHeight = 20
-			fixedsize = yes
-			format = centre
-		}
-	}
+	#### bookmark entry
+	#containerWindowType = {
+	#	name = "bookmark_entry"
+	#	position = { x= 0 y = 0 }
+	#	size = { width=232 height=211}
+	#	clipping = no
+	#	fade_time = 500
+	#	fade_type = linear
+	#
+	#	background = {
+	#		name = "background"
+	#		quadTextureSprite = "GFX_bookmark_entry_bg"
+	#		clicksound = click_checkbox
+	#	}
+	#
+	#	iconType = {
+	#		name = "icon"
+	#		spriteType = "GFX_select_date_1936"
+	#		position = { x = 27 y = 28 }
+	#		alwaystransparent = yes
+	#	}
+	#
+	#	instantTextBoxType = {
+	#		name = "date"
+	#		position = { x = 22 y = 147 }
+	#		font = "hoi_20b"
+	#		borderSize = {x = 0 y = 0}
+	#		text = "FE_BOOKMARK_DATE"
+	#		maxWidth = 185
+	#		maxHeight = 20
+	#		fixedsize = yes
+	#		format = centre
+	#	}
+	#}
 
 	containerWindowType = {
 		name = "spirit_idea_entry"
