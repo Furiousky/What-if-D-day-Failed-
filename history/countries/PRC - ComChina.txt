@@ -81,6 +81,10 @@ add_ideas = {
 	service_by_requirement
 	tot_economic_mobilisation
 	PRC_soviet_influenced_communism
+	PRC_maoist_ideals
+	PRC_unorganized_people_liberation_army
+	PRC_everlasting_revolt
+	PRC_mobolized_flawed_economy
 }
 
 add_opinion_modifier = { target = CHI modifier = hostile_status }
