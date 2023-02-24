@@ -976,7 +976,8 @@ focus_tree = {
 		id = PRC_cardinal_operations
 		icon = GFX_focus_generic_soviet_politics
 		prerequisite = { focus = PRC_employ_guerilla_warfare }
-		prerequisite = { focus = PRC_gather_our_people }		
+		prerequisite = { focus = PRC_gather_our_people }
+		available = { has_completed_focus = PRC_humiliate_the_kuomintang }		
 		x = -2
 		y = 1
 		relative_position_id = PRC_employ_guerilla_warfare
@@ -1398,7 +1399,7 @@ focus_tree = {
 		icon = GFX_focus_generic_soviet_politics
 		prerequisite = { focus = PRC_achieve_material_superiority }
 		prerequisite = { focus = PRC_combative_militia }
-		prerequisite = { focus = PRC_humiliate_the_kuomintang }		
+		available = { has_completed_focus = PRC_humiliate_the_kuomintang }
 		x = 2
 		y = 1
 		relative_position_id = PRC_achieve_material_superiority
