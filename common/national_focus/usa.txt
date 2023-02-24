@@ -988,6 +988,237 @@ focus = {
 	
 	}
 
+	focus = {
+		id = USA_truman_death
+		icon = GFX_focus_generic_self_management
+		x = 20
+		y = 2
+		prerequisite = { focus =USA_truman_presidency}
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+	#history
+
+	focus = {
+		id = USA_power_to_vice_president
+		icon = GFX_focus_generic_self_management
+		x = 10
+		y = 3
+		prerequisite = { focus =USA_truman_death}
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+
+		focus = {
+		id = USA_elections
+		icon = GFX_focus_generic_self_management
+		x = 10
+		y = 4
+		prerequisite = { focus =USA_power_to_vice_president}
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+
+		focus = {
+		id = USA_elections
+		icon = GFX_focus_generic_self_management
+		x = 10
+		y = 4
+		prerequisite = { focus =USA_power_to_vice_president}
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+
+		focus = {
+		id = USA_eisenhower 
+		icon = GFX_focus_generic_self_management
+		x = 12
+		y = 5
+		prerequisite = { focus =USA_elections}
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+
+		focus = {
+		id = USA_stevenson
+		icon = GFX_focus_generic_self_management
+		x = 8
+		y = 5
+		prerequisite = { focus =USA_elections}
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+
+
+
+
+	#alt history
+
+	focus = {
+		id = USA_senate_power
+		icon = GFX_focus_generic_self_management
+		x = 30
+		y = 3
+		prerequisite = { focus =USA_truman_death}
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+
+
 
 
 
