@@ -1,0 +1,20 @@
+######################
+#### Soviet Union ####
+######################
+
+SOV_economic_devastation_decisions_category = {
+	icon = ger_mefo_bills
+
+	picture = GFX_decision_cat_generic_mefo_bills
+
+	allowed = {
+		original_tag = SOV
+	}
+
+	available = {
+		has_completed_focus = SOV_desolation_of_the_jackboot
+	}
+	priority = 10
+}
+
+

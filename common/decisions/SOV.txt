@@ -1,0 +1,45 @@
+
+SOV_economic_devastation_decisions_category = {
+
+	SOV_invest_in_reconstruction = {
+
+		allowed = {
+			original_tag = SOV
+		}
+		visible = {
+			
+		}
+		cost = 25
+		fire_only_once = no
+		days_remove = 100
+		ai_will_do = {
+			factor = 1
+		}
+
+
+		modifier = {
+			civilian_factory_use = 4
+			production_speed_buildings_factor = 0.1
+			
+		}
+
+		
+		remove_effect = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+}

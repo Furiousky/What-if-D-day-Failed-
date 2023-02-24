@@ -37,5 +37,6 @@ SOV_economic_devastation = {
 	stability_factor = SOV_economic_devastion_stability_factor
 	war_support_factor = SOV_economic_devastion_war_support_factor
 	global_building_slots_factor = SOV_economic_devastion_global_building_slots_factor
+	production_factory_max_efficiency_factor = SOV_economic_devastion_production_factory_max_efficiency_factor
 	
 }

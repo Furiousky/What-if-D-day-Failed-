@@ -31,9 +31,6 @@ set_popularities = {
 	communism = 88
 }
 
-create_faction = Comintern
-add_to_faction = MON
-add_to_faction = YUG
 
 #COUNTRY LEADERS
 recruit_character = SOV_iosif_stalin
@@ -366,66 +363,66 @@ SOV_martemyan_ryutin = {
 	
     set_autonomy = {
 		target = MAN
-		autonomous_state = autonomy_satellite
+		autonomous_state = autonomy_puppet
     }
 	set_autonomy = {
 		target = POL
-		autonomous_state = autonomy_satellite
+		autonomous_state = autonomy_puppet
 		freedom_level = 0.2
 	}
 		set_autonomy = {
 		target = BUL
-		autonomous_state = autonomy_satellite
+		autonomous_state = autonomy_puppet
 		freedom_level = 0.2
 	}
 		set_autonomy = {
 		target = FIN
-		autonomous_state = autonomy_satellite
+		autonomous_state = autonomy_puppet
 		freedom_level = 0.2
 	}
 		set_autonomy = {
 		target = HUN
-		autonomous_state = autonomy_satellite
+		autonomous_state = autonomy_puppet
 		freedom_level = 0.2
 	}
 		set_autonomy = {
 		target = ROM
-		autonomous_state = autonomy_satellite
+		autonomous_state = autonomy_puppet
 		freedom_level = 0.2
 	}
 		set_autonomy = {
 		target = CZE
-		autonomous_state = autonomy_satellite
+		autonomous_state = autonomy_puppet
 		freedom_level = 0.2
 	}
 		set_autonomy = {
 		target = LUX
-		autonomous_state = autonomy_satellite
+		autonomous_state = autonomy_puppet
 		freedom_level = 0.2
 	}
 		set_autonomy = {
 		target = BEL
-		autonomous_state = autonomy_satellite
+		autonomous_state = autonomy_puppet
 		freedom_level = 0.2
 	}
 		set_autonomy = {
 		target = HOL
-		autonomous_state = autonomy_satellite
+		autonomous_state = autonomy_puppet
 		freedom_level = 0.2
 	}
 		set_autonomy = {
 		target = AUS
-		autonomous_state = autonomy_satellite
+		autonomous_state = autonomy_puppet
 		freedom_level = 0.2
 	}
 		set_autonomy = {
 		target = DEN
-		autonomous_state = autonomy_satellite
+		autonomous_state = autonomy_puppet
 		freedom_level = 0.2
 	}
 		set_autonomy = {
 		target = DDR
-		autonomous_state = autonomy_dominion
+		autonomous_state = autonomy_puppet
 		freedom_level = 0.2
 	}
 		set_autonomy = {
@@ -547,9 +544,9 @@ if = {
 	}
 }
 
-set_research_slots = 3
-set_stability = 0.5
-set_war_support = 0.3
+set_research_slots = 4
+set_stability = 0.6
+set_war_support = 0.7
 # Starting tech
 set_technology = { #WARNING: Do not just remove techs from here -> It can impact a lot of stuff. Before removing, double check that content does not count on these techs being researched
 	infantry_weapons = 1
@@ -639,6 +636,8 @@ set_country_flag = SOV_TEST_REMOVE_VANILLA_ADVISORS_flag
 add_ideas = {	
 	SOV_population_loss
 	SOV_stalinism_strengthened
+	war_economy
+	service_by_requirement
 }
 
 add_dynamic_modifier = {
@@ -653,6 +652,7 @@ set_variable = { SOV_economic_devastion_industry_repair_factor = -0.1 }
 set_variable = { SOV_economic_devastion_stability_factor = -0.1 }
 set_variable = { SOV_economic_devastion_war_support_factor = -0.3 }
 set_variable = { SOV_economic_devastion_global_building_slots_factor = -0.15 }
+set_variable = { SOV_economic_devastion_production_factory_max_efficiency_factor = -0.4}
 
 
 	################
