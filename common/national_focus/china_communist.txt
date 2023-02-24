@@ -1397,12 +1397,13 @@ focus_tree = {
 		id = PRC_yangtze_campaign
 		icon = GFX_focus_generic_soviet_politics
 		prerequisite = { focus = PRC_achieve_material_superiority }
-		prerequisite = { focus = PRC_combative_militia }	
+		prerequisite = { focus = PRC_combative_militia }
+		prerequisite = { focus = PRC_humiliate_the_kuomintang }		
 		x = 2
 		y = 1
 		relative_position_id = PRC_achieve_material_superiority
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
