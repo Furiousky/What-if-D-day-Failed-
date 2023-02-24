@@ -812,7 +812,7 @@ focus_tree = {
 #Inteligence
 	focus = {
 		id = USA_found_cia
-		icon = GFX_focus_USA_cia
+		icon = GFX_focus_usa_cia
 		x = 65
 		y = 1
 		allow_branch = { has_dlc = "La Resistance" }
