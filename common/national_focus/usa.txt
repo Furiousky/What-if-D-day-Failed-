@@ -8,7 +8,7 @@
 ### search_filters = {FOCUS_FILTER_USA_CONGRESS}
 
 focus_tree = {
-	id = usa_focus
+	id = USA_focus
 	
 	country = {
 		factor = 0
@@ -23,7 +23,7 @@ focus_tree = {
 			original_tag = USA
 		}
 	}
-	continuous_focus_position = { x = 50 y = 1600 }
+	continuous_focus_position = { x = 2500 y = 10000 }
 	default = no
 #	focus = {
 #		id = USA_
@@ -812,7 +812,7 @@ focus_tree = {
 #Inteligence
 	focus = {
 		id = USA_found_cia
-		icon = GFX_focus_generic_self_management
+		icon = GFX_focus_usa_cia
 		x = 65
 		y = 1
 		allow_branch = { has_dlc = "La Resistance" }
@@ -842,6 +842,160 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 150
 		}
+
+
+}
+focus = {
+		id = USA_training_camps
+		icon = GFX_focus_generic_self_management
+		x = 65
+		y = 2
+		allow_branch = { has_dlc = "La Resistance" }
+		prerequisite = { focus =USA_found_cia}
+		
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+
+
+}
+
+focus = {
+		id = USA_counter_inteligence
+		icon = GFX_focus_generic_self_management
+		x = 63
+		y = 2
+		allow_branch = { has_dlc = "La Resistance" }
+		prerequisite = { focus =USA_found_cia}
+		
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+
+
+}
+focus = {
+		id = USA_expand_service
+		icon = GFX_focus_generic_self_management
+		x = 67
+		y = 2
+		allow_branch = { has_dlc = "La Resistance" }
+		prerequisite = { focus =USA_found_cia}
+		
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+
+
+}
+
+
+
+
+
+
+
+#POLITICS
+		focus = {
+		id = USA_truman_presidency
+		icon = GFX_focus_generic_self_management
+		x = 20
+		y = 1
+		
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+
+
+
+
+
+
+
+
+
 
 
 }
