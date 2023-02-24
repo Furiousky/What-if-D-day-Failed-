@@ -9,7 +9,7 @@ bookmarks = {
 	
 
 		USA = {
-			history = USA_BLITZKRIEG_DESC
+			history = USA_1946_DESC
 			ideology = democratic
 			ideas = {
 				home_of_the_free
@@ -26,19 +26,11 @@ bookmarks = {
 		}
 		
 		ENG = {
-			history = ENG_BLITZKRIEG_DESC
+			history = ENG_1946_DESC
 			ideology = democratic
 			ideas = {
-				stiff_upper_lip
-				ENG_the_war_to_end_all_wars
-				ENG_george_vi
-				british_austerity_idea
-				ENG_colonial_elite
 			}
 			focuses = {
-				ENG_war_with_japan
-				bomber_command_focus
-				maud_focus
 			}
 			
 				}
@@ -53,12 +45,9 @@ bookmarks = {
 		
 
 		SOV = {
-			history = SOV_BLITZKRIEG_DESC
+			history = SOV_1946_DESC
 			ideology = communism
 			ideas = {
-				SOV_anti_soviet_military_thinking_banned_navy
-				SOV_second_five_year_plan_fake_1939_ns
-				SOV_purged_junior_army_officers_2
 			}
 			focuses = {
 				SOV_found_the_comecon
@@ -68,10 +57,12 @@ bookmarks = {
 		}
 
 		PRC = {
-			history = "PRC_BLITZKRIEG_DESC"
+			history = PRC_1946_DESC
 			ideology = communism
 			ideas = {
-				PRC_soviet_influenced_communism
+				PRC_maoist_ideals
+				PRC_unorganized_people_liberation_army
+				PRC_everlasting_revolt
 			}
 			focuses = {
 				PRC_chairman_mao

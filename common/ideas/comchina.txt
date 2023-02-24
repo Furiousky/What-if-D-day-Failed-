@@ -20,6 +20,93 @@ ideas = {
 				communism_acceptance = 50
 			}
 		}
+		
+		PRC_maoist_ideals = {
 
+			name = PRC_maoist_ideals
+
+			picture = jap_the_unthinkable_option
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			allowed = { original_tag = PRC }
+
+			removal_cost = -1
+
+			modifier = {
+				drift_defence_factor = 0.15
+				communism_drift = 0.03
+				stability_weekly = -0.002
+				political_power_gain = -0.25
+			}
+		}
+		
+		PRC_unorganized_people_liberation_army = {
+
+			name = PRC_unorganized_people_liberation_army
+
+			picture = jap_the_unthinkable_option
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			allowed = { original_tag = PRC }
+
+			removal_cost = -1
+
+			modifier = {
+				equipment_capture = 0.015
+				supply_consumption_factor = 0.05
+				army_morale_factor = -0.03
+				army_org_factor = -0.08
+			}
+		}
+		
+		PRC_everlasting_revolt = {
+
+			name = PRC_everlasting_revolt
+
+			picture = jap_the_unthinkable_option
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			allowed = { original_tag = PRC }
+
+			removal_cost = -1
+
+			modifier = {
+				surrender_limit = 0.25
+				stability_factor = -0.05
+			}
+			
+			targeted_modifier = {
+			tag = CHI
+			attack_bonus_against = 0.1
+			}
+		}
+		
+		PRC_mobolized_flawed_economy = {
+
+			name = PRC_mobolized_flawed_economy
+
+			picture = jap_the_unthinkable_option
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			allowed = { original_tag = PRC }
+
+			removal_cost = -1
+
+			modifier = {
+				communism_acceptance = 80
+			}
+		}	
 	}
 }	
