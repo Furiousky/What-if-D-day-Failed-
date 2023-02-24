@@ -29,8 +29,16 @@ bookmarks = {
 			history = ENG_1946_DESC
 			ideology = democratic
 			ideas = {
+				stiff_upper_lip
+				ENG_the_war_to_end_all_wars
+				ENG_george_vi
+				british_austerity_idea
+				ENG_colonial_elite
 			}
 			focuses = {
+				ENG_war_with_japan
+				bomber_command_focus
+				maud_focus
 			}
 			
 				}
@@ -48,6 +56,9 @@ bookmarks = {
 			history = SOV_1946_DESC
 			ideology = communism
 			ideas = {
+				SOV_anti_soviet_military_thinking_banned_navy
+				SOV_second_five_year_plan_fake_1939_ns
+				SOV_purged_junior_army_officers_2
 			}
 			focuses = {
 				SOV_found_the_comecon
