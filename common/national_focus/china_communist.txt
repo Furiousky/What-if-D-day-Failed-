@@ -118,7 +118,7 @@ focus_tree = {
 		}
 	}		
 	focus = {
-		id = PRC_machuria_deliverance
+		id = PRC_manchuria_deliverance
 		icon = GFX_goal_support_fourth_int
 		prerequisite = { focus = PRC_secret_eurasian_pact }
 		prerequisite = { focus = PRC_soviet_funded_rebellion }
@@ -153,10 +153,10 @@ focus_tree = {
 	focus = {
 		id = PRC_chairman_mao
 		icon = GFX_focus_generic_soviet_politics
-		prerequisite = { focus = PRC_machuria_deliverance }
+		prerequisite = { focus = PRC_manchuria_deliverance }
 		x = -3
 		y = 1
-		relative_position_id = PRC_machuria_deliverance
+		relative_position_id = PRC_manchuria_deliverance
 
 		cost = 10
 
@@ -653,10 +653,10 @@ focus_tree = {
 	focus = {
 		id = PRC_war_of_liberation
 		icon = GFX_focus_generic_soviet_politics
-		prerequisite = { focus = PRC_machuria_deliverance }
+		prerequisite = { focus = PRC_manchuria_deliverance }
 		x = 3
 		y = 1
-		relative_position_id = PRC_machuria_deliverance
+		relative_position_id = PRC_manchuria_deliverance
 
 		cost = 5
 

@@ -71,14 +71,12 @@ bookmarks = {
 			history = "PRC_BLITZKRIEG_DESC"
 			ideology = communism
 			ideas = {
-				PRC_the_long_march_1
-				PRC_low_popular_support_1
-				PRC_power_struggles
+				soviet_influenced_communism
 			}
 			focuses = {
-				PRC_infiltration
-				PRC_maoism
-				PRC_anti_japanese_expedition
+				PRC_chairman_mao
+				PRC_a_unified_red_china
+				PRC_manchuria_deliverance
 			}
 		}
 
