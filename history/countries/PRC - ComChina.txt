@@ -80,7 +80,7 @@ add_ideas = {
 	closed_economy
 	service_by_requirement
 	tot_economic_mobilisation
-	soviet_influenced_communism
+	PRC_soviet_influenced_communism
 }
 
 add_opinion_modifier = { target = CHI modifier = hostile_status }

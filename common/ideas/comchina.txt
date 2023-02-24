@@ -2,9 +2,9 @@ ideas = {
 
 	country = {
 
-		soviet_influenced_communism = {
+		PRC_soviet_influenced_communism = {
 
-			name = soviet_influenced_communism
+			name = PRC_soviet_influenced_communism
 
 			picture = jap_the_unthinkable_option
 			
