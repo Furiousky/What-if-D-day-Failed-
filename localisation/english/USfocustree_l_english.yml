@@ -1,0 +1,37 @@
+﻿l_english:
+
+ #agency
+ USA_found_cia:0 "Found the Central Inteligence Agency"
+ USA_counter_inteligence:0 "Counter-Inteligence Programs"
+ USA_training_camps:0 "Build Training Camps"
+ USA_expand_service:0 "Expand the Agency"
+
+ #army
+ USA_army_review:0 "Review the Army"
+ USA_state_of_army:0 "The State of the Army"
+ USA_mechanisation:0 "Mechanisation of the army"
+ USA_artillery:0 "Artillery focus"
+ USA_infantery_equipement:0 "Rifle Modernisation"
+ USA_This_Well_Defend:0 "This We'll Defend"
+
+ #navy
+ USA_state_of_navy:0 "State of Navy"
+ USA_carriers_doctrines:0 "Primacy of the Aircrafts Carriers Doctrine"
+ USA_midway_class:0 "The Midway Class"
+ USA_west_coast_dockyards:0 "Build West coast Dockyard"
+ USA_legacy_of_enterprise:0 "Legacy of the USS Enterprise"
+ USA_submarine_effort:0 "Escort Submarines"
+ USA_commerce_raiding:0 "Learn from the Germans Wolfpack"
+ USA_marines_corps:0 "The United States Marines Corps"
+ USA_the_mistakes_from_dday:0 "Correct the Mistakes from D-Day"
+ USA_the_lecons_from_japan:0 "Keep and upgrades the tactics of The Pacific War"
+ USA_usmc_expansion:0 "This is my Rifle"
+ USA_never_another_normandy:0 "Never Another Normandy"
+
+ #airforce
+ USA_state_of_airforce:0 "The States of the Airforce"
+ USA_invest_in_lockheed:0 "Invest in Lockheed Fighters"
+ USA_invest_in_boeing:0 "Invest In Boeing Bombers"
+ USA_cas:0 "Close Air Support Focus"
+ USA_paratroopers:0 "Develop Airborn Troops"
+ USA_nothing_can_beat_the_us_airforce:0 "Nothing Can Beat The US Airforce"
