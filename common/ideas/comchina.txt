@@ -106,7 +106,11 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				communism_acceptance = 80
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = -0.2
+				industrial_capacity_factory = -0.25
+				production_factory_efficiency_gain_factor = -0.8
+				line_change_production_efficiency_factor = -0.05
 			}
 		}	
 	}
