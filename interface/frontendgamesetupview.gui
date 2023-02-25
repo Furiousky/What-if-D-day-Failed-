@@ -668,7 +668,7 @@ guiTypes = {
 			name = "selection_overlay"
 			quadTextureSprite ="GFX_selection_overlay"
 			position = { x = 426 y = 42}
-			format = "UPPER_LEFT"			
+			#format = "UPPER_LEFT"			
 		}
 
 		containerWindowType = {

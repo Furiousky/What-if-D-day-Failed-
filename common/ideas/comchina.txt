@@ -19,7 +19,7 @@ ideas = {
 			modifier = {
 				communism_acceptance = 60	
 				opinion_gain_monthly_same_ideology_factor = 0.25
-				custom_effect_tooltip = tt_prcop
+				custom_modifier_tooltip = tt_prcop
 			}
 		}
 		

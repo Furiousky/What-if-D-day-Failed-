@@ -12,6 +12,5 @@ tags={
 	"Sound"
 	"Technologies"
 }
-
-replace_path="common/national_focus"
 supported_version="1.12.*"
+path="mod/What-if-D-day-Failed-"

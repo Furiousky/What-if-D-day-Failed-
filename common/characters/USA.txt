@@ -9,12 +9,12 @@ characters={
 		country_leader={
 			ideology=liberalism
 			traits={ anti_communist }
-			expire="1956.30.4.1"
+			expire="1956.4.30.1"
 			id=-1
 		}
 	}
-		USA_congress={
-		name="United States Congress "
+	USA_congress_conservatism={
+		name="United States Congress"
 		portraits={
 			civilian={
 				large= "/gfx/leaders/USA/congress.dds"
@@ -23,7 +23,6 @@ characters={
 		country_leader={
 			ideology=conservatism
 			traits={ cabinet_crisis }
-			expire="never"
 			id=-1
 		}
 	}
@@ -41,8 +40,8 @@ characters={
 			id=-1
 		}
 	}
-		USA_congress={
-		name="United States Congress "
+	USA_congress_liberalism={
+		name="United States Congress"
 		portraits={
 			civilian={
 				large= "/gfx/leaders/USA/congress.dds"
@@ -51,7 +50,6 @@ characters={
 		country_leader={
 			ideology=liberalism
 			traits={ cabinet_crisis }
-			expire="never"
 			id=-1
 		}
 	}
