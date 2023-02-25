@@ -29,7 +29,7 @@ focus_tree = {
 #		id = USA_
 #		#icon = GFX_
 #		prerequisite = { focus = }
-#		mutually_exclusive = { focus =  }
+#		
 #		x = -3
 #		y = 0
 #		relative_position_id = 
@@ -66,8 +66,7 @@ focus_tree = {
 		icon = GFX_focus_generic_self_management
 		x = 50
 		y = 1
-
-		mutually_exclusive = { focus =  }
+		
 		cost = 10
 
 		ai_will_do = {
@@ -97,7 +96,6 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = USA_army_review}
 
-		mutually_exclusive = { focus =  }
 		cost = 10
 
 		ai_will_do = {
@@ -126,7 +124,7 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = USA_army_review}
 
-		mutually_exclusive = { focus =  }
+		
 		cost = 10
 
 		ai_will_do = {
@@ -155,7 +153,7 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = USA_army_review}
 
-		mutually_exclusive = { focus =  }
+		
 		cost = 10
 
 		ai_will_do = {
@@ -186,7 +184,7 @@ focus_tree = {
 		y = 3
 		prerequisite = { focus = USA_state_of_navy}
 
-		mutually_exclusive = { focus =  }
+		
 		cost = 10
 
 		ai_will_do = {
@@ -215,7 +213,7 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = USA_carriers_doctrines}
 
-		mutually_exclusive = { focus =  }
+		
 		cost = 10
 
 		ai_will_do = {
@@ -244,7 +242,7 @@ focus_tree = {
 		y = 5
 		prerequisite = { focus = USA_midway_class}
 
-		mutually_exclusive = { focus =  }
+		
 		cost = 10
 
 		ai_will_do = {
@@ -273,7 +271,7 @@ focus_tree = {
 		y = 6
 		prerequisite = { focus = USA_west_coast_dockyards}
 
-		mutually_exclusive = { focus =  }
+		
 		cost = 10
 
 		ai_will_do = {
@@ -303,7 +301,7 @@ focus_tree = {
 		y = 3
 		prerequisite = { focus = USA_state_of_navy}
 
-		mutually_exclusive = { focus =  }
+		
 		cost = 10
 
 		ai_will_do = {
@@ -332,7 +330,7 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = USA_submarine_effort}
 
-		mutually_exclusive = { focus =  }
+		
 		cost = 10
 
 		ai_will_do = {
@@ -369,7 +367,7 @@ focus_tree = {
 		y = 3
 		prerequisite = { focus = USA_state_of_navy}
 
-		mutually_exclusive = { focus =  }
+		
 		cost = 10
 
 		ai_will_do = {
@@ -399,7 +397,7 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = USA_marines_corps}
 
-		mutually_exclusive = { focus =  }
+		
 		cost = 10
 
 		ai_will_do = {
@@ -429,7 +427,7 @@ focus_tree = {
 		y = 5
 		prerequisite = { focus = USA_the_mistakes_from_dday}
 
-		mutually_exclusive = { focus =  }
+		
 		cost = 10
 
 		ai_will_do = {
@@ -459,7 +457,7 @@ focus_tree = {
 		y = 6
 		prerequisite = { focus = USA_the_lecons_from_japan}
 
-		mutually_exclusive = { focus =  }
+		
 		cost = 10
 
 		ai_will_do = {
@@ -491,7 +489,7 @@ focus_tree = {
 		prerequisite = { focus = USA_legacy_of_enterprise}
 		prerequisite = { focus = USA_commerce_raiding}
 
-		mutually_exclusive = { focus =  }
+		
 		cost = 10
 
 		ai_will_do = {
@@ -524,7 +522,7 @@ focus_tree = {
 		prerequisite = { focus = USA_state_of_army}
 	
 
-		mutually_exclusive = { focus =  }
+		
 		cost = 10
 
 		ai_will_do = {
@@ -555,7 +553,7 @@ focus_tree = {
 		prerequisite = { focus = USA_state_of_army}
 	
 
-		mutually_exclusive = { focus =  }
+		
 		cost = 10
 
 		ai_will_do = {
@@ -586,7 +584,7 @@ focus_tree = {
 		prerequisite = { focus = USA_state_of_army}
 	
 
-		mutually_exclusive = { focus =  }
+		
 		cost = 10
 
 		ai_will_do = {
@@ -619,7 +617,7 @@ focus_tree = {
 		prerequisite = { focus = USA_mechanisation}
 	
 
-		mutually_exclusive = { focus =  }
+		
 		cost = 10
 
 		ai_will_do = {

@@ -79,22 +79,9 @@ ideas = {
 				
 			}
 		}
-		}
-		
-		
-
-	
-		
-		
-
-
-
-
-
-#designers and shit
-	
 	}
 
+#designers and shit
 
 	tank_manufacturer = { 
 	
@@ -576,6 +563,4 @@ ideas = {
 		}
 	}
 }
-		}
-		}
 	
