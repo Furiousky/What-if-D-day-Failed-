@@ -63,11 +63,6 @@ declare_war_on = {
 		type = civil_war
 }
 
-remove_wargoal = {
-    type = all
-    target = ROOT
-}
-
 set_politics = {
 	ruling_party = communism
 	last_election = "1936.1.1"
