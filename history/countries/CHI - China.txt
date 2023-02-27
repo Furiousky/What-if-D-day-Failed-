@@ -89,6 +89,15 @@ if = {
     }
 }
 
+# EVENTS #
+
+CHI = {
+    country_event = { # China Unification Event
+        id = china.500 
+        days = 105
+    }
+}            
+
 set_stability = 0.2
 set_war_support = 0.5
 # Starting tech
@@ -207,6 +216,7 @@ if = {
 		CHI_hyper_inflation_1
 	}
 }
+
 save_global_event_target_as = WTT_current_china_leader
 
 set_convoys = 40

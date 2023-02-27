@@ -464,6 +464,7 @@ add_to_faction = SAF
 add_to_faction = USA
 add_to_faction = MEX
 add_to_faction = BRA
+add_to_faction = NOR
 
 give_military_access = RAJ
 add_to_faction = RAJ		# Must be after puppet

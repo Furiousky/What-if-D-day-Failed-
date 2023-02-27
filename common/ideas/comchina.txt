@@ -17,7 +17,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				communism_acceptance = 50
+				communism_acceptance = 60	
+				opinion_gain_monthly_same_ideology_factor = 0.25
+				custom_modifier_tooltip = tt_prcop
 			}
 		}
 		
@@ -90,9 +92,9 @@ ideas = {
 			}
 		}
 		
-		PRC_mobolized_flawed_economy = {
+		PRC_inadequate_industrial_power = {
 
-			name = PRC_mobolized_flawed_economy
+			name = PRC_inadequate_industrial_power
 
 			picture = jap_the_unthinkable_option
 			
@@ -105,7 +107,11 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				communism_acceptance = 80
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = -0.2
+				industrial_capacity_factory = -0.25
+				production_factory_efficiency_gain_factor = -0.08
+				line_change_production_efficiency_factor = -0.05
 			}
 		}	
 	}

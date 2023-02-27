@@ -1,0 +1,33 @@
+﻿###########################
+#####  Chinese Events #####
+###########################
+
+add_namespace = china
+
+# Chinese Unification Event
+country_event = {
+	id = china.500
+	title = china.500.t
+	desc = china.500.d
+	picture = GFX_china_chiang_speech
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 3
+	}	
+	
+	option = { # Unify with the Warlords!
+		name = china.500.a
+		ai_chance = { factor = 100 }
+		annex_country = { target = SHX transfer_troops = yes }
+		annex_country = { target = GXC transfer_troops = yes }
+		annex_country = { target = XSM transfer_troops = yes }
+		annex_country = { target = SIK transfer_troops = yes }	
+	}
+	option = { # We have other plans...
+		name = china.500.b
+		ai_chance = { factor = 0 }
+		add_stability = -0.05
+	}
+}

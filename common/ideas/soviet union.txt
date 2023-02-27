@@ -1,12 +1,5 @@
 ideas = {
 
-	##    ##  #######      ######  ######## ######## ########     ########     ###     ######  ##    ##
-	###   ## ##     ##    ##    ##    ##    ##       ##     ##    ##     ##   ## ##   ##    ## ##   ##
-	####  ## ##     ##    ##          ##    ##       ##     ##    ##     ##  ##   ##  ##       ##  ##
-	## ## ## ##     ##     ######     ##    ######   ########     ########  ##     ## ##       #####
-	##  #### ##     ##          ##    ##    ##       ##           ##     ## ######### ##       ##  ##
-	##   ### ##     ##    ##    ##    ##    ##       ##           ##     ## ##     ## ##    ## ##   ##
-	##    ##  #######      ######     ##    ######## ##           ########  ##     ##  ######  ##    ##
 	
 	
 		country= {
@@ -30,6 +23,7 @@ ideas = {
 					recruitable_population_factor = -0.25
 					consumer_goods_factor = -0.05
 					stability_factor = -0.05
+					war_support_factor = -0.2
 					
 
 				}
@@ -55,6 +49,27 @@ ideas = {
 					stability_factor = -0.05
 					surrender_limit = 0.25
 					communism_drift = 0.15
+					
+
+				}
+			}
+
+			SOV_rail_improvement_program = {
+				picture = usa_great_depression_2
+			
+				allowed = {
+					always = no
+				}
+	
+				allowed_civil_war = {
+					always = yes
+				}
+	
+				removal_cost = -1
+
+				modifier = {
+					production_speed_rail_way_factor = 0.1
+					production_speed_supply_node_factor = 0.1
 					
 
 				}

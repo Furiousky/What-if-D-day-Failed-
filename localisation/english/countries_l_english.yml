@@ -1,4 +1,7 @@
 ﻿l_english:
+
+### Custom Nations ###
+
  PRK_fascism:0 "Korean Order"
  PRK_fascism_DEF:0 "Korean Order"
  PRK_democratic:0 "State of Korea"
@@ -14,6 +17,23 @@
  PRK:0 "North Korea"
  PRK_DEF:0 "North Korea"
  PRK_ADJ:0 "North Korean"
+ 
+ FBE_fascism:1 "Belgian Empire"
+ FBE_fascism_DEF:1 "the Belgian Empire"
+ FBE_democratic:0 "Free Belgium"
+ FBE_democratic_DEF:0 "the Free Belgium"
+ FBE_neutrality:1 "Kingdom of Belgium"
+ FBE_neutrality_DEF:1 "the Kingdom of Belgium"
+ FBE_communism:1 "Belgium People's Republic"
+ FBE_communism_DEF:1 "the Belgium People's Republic"
+ FBE_fascism_ADJ:1 "Belgian"
+ FBE_democratic_ADJ:0 "Belgian"
+ FBE_neutrality_ADJ:0 "Belgian"
+ FBE_communism_ADJ:0 "Belgian"
+ FBE:0 "Morocco"
+ FBE_DEF:0 "Belgium"
+ FBE_ADJ:0 "Belgian"
+ 
  GER_fascism:0 "German Reich"
  GER_fascism_DEF:0 "the German Reich"
  GER_democratic:0 "German Republic"

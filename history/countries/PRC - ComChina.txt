@@ -44,23 +44,23 @@ save_global_event_target_as = WTT_communist_china
 
 declare_war_on = {
 		target = CHI
-		type = annex_everything
+		type = civil_war
 }
 declare_war_on = {
 		target = GXC
-		type = annex_everything
+		type = civil_war
 }
 declare_war_on = {
 		target = XSM
-		type = annex_everything
+		type = civil_war
 }
 declare_war_on = {
 		target = SHX
-		type = annex_everything
+		type = civil_war
 }
 declare_war_on = {
 		target = SIK
-		type = annex_everything
+		type = civil_war
 }
 
 set_politics = {
@@ -84,7 +84,13 @@ add_ideas = {
 	PRC_maoist_ideals
 	PRC_unorganized_people_liberation_army
 	PRC_everlasting_revolt
-	PRC_mobolized_flawed_economy
+	PRC_inadequate_industrial_power
 }
 
 add_opinion_modifier = { target = CHI modifier = hostile_status }
+
+add_opinion_modifier = { target = SOV modifier = large_increase	 }
+
+SOV = {
+add_opinion_modifier = { target = PRC modifier = large_increase	 }
+}

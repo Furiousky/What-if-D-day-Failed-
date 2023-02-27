@@ -4,5 +4,13 @@ spriteTypes = {
 		name = "GFX_truman_death"
 		texturefile = "gfx/interface/events/truman_death.dds"
 	}
-
+	
+	    SpriteType = {
+		name = "GFX_china_chiang_speech"
+		texturefile = "gfx/interface/events/report_event_china_chiang_speech.dds"
+	}
+	
 }
+
+
+
