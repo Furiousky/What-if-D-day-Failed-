@@ -4,4 +4,24 @@
 
 SOV_desolation_of_the_jackboot:0 "Desolation of the Jackboot"
 SOV_desolation_of_the_jackboot_desc:0 "The nazi occupiers have been driven out of our country, but they have left a land in ruins. Much work remains to be done before we can stand strong again."
-SOV_desolation_of_the_jackboot_completion_tt:0 "£decision_icon_small §YUnlocks decisions to rebuild the country."
+SOV_desolation_of_the_jackboot_completion_tt:0 "£decision_icon_small §YUnlocks decisions to rebuild the country.§!"
+SOV_city_reconstruction:0 "City Reconstruction"
+SOV_city_reconstruction_desc:0 ""
+SOV_city_reconstruction_completion_tt:0 "£decision_icon_small §YUnlocks city improvement decisions.§!\n\nModify §YEconomic Devastation§! by: \nConstruction Speed: §G+5.00%§!\n\n"
+SOV_factory_expansion:0 "Factory Expansion"
+SOV_factory_expansion_completion_tt:0 "Modify §YEconomic Devastation§! by: \nProduction Efficiency Cap: §G+5.00%§!\n\n"
+
+
+
+##ideas
+
+SOV_economic_devastation:0 "Economic Devastation"
+
+SOV_population_loss:0 "Population Loss"
+
+SOV_stalinism_strengthened:0 "Stalinism Strengthened"
+
+SOV_rail_improvement_program:0 "Rail improvement program"
+
+
+
