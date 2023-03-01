@@ -1148,6 +1148,38 @@ focus = {
 	}
 
 		focus = {
+		id = USA_civil_rights_act
+		icon = GFX_focus_generic_self_management
+		x = 12
+		y = 6
+		prerequisite = { focus =USA_eisenhower}
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+#republican (boring)
+		focus = {
 		id = USA_stevenson
 		icon = GFX_focus_generic_self_management
 		x = 8
