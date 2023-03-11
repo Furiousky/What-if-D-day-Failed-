@@ -1306,6 +1306,402 @@ focus = {
 	
 	}
 
+			focus = {
+		id = USA_us_first
+		icon = GFX_focus_generic_self_management
+		x = 15
+		y = 7
+		prerequisite = { focus =USA_nato}
+		mutually_exclusive = { focus =USA_alliance_first}
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+
+		focus = {
+		id = USA_alliance_first
+		icon = GFX_focus_generic_self_management
+		x = 19
+		y = 7
+		prerequisite = { focus =USA_nato}
+		mutually_exclusive = { focus =USA_us_first}
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+
+		focus = {
+		id = USA_devellop_alliance_members
+		icon = GFX_focus_generic_self_management
+		x = 19
+		y = 8
+		prerequisite = { focus =USA_alliance_first}
+		
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+		focus = {
+		id = USA_iberia
+		icon = GFX_focus_generic_self_management
+		x = 17
+		y = 9
+		prerequisite = { focus =USA_devellop_alliance_members}
+		
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+			focus = {
+		id = USA_italy
+		icon = GFX_focus_generic_self_management
+		x = 19
+		y = 9
+		prerequisite = { focus =USA_devellop_alliance_members}
+		
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+		focus = {
+		id = USA_greece_and_turkey
+		icon = GFX_focus_generic_self_management
+		x = 21
+		y = 9
+		prerequisite = { focus =USA_devellop_alliance_members}
+		
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+		focus = {
+		id = USA_beyond_na
+		icon = GFX_focus_generic_self_management
+		x = 19
+		y = 10
+		prerequisite = { focus =USA_greece_and_turkey
+		focus =USA_italy
+		focus =USA_iberia
+	}
+
+		
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+	focus = {
+		id = USA_global_defense_initiative
+		icon = GFX_focus_generic_self_management
+		x = 19
+		y = 11
+		prerequisite = { focus =USA_beyond_na}
+		
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+	focus = {
+		id = USA_asia
+		icon = GFX_focus_generic_self_management
+		x = 17
+		y = 12
+		prerequisite = { focus =USA_global_defense_initiative}
+		
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+	focus = {
+		id = USA_oceania
+		icon = GFX_focus_generic_self_management
+		x = 19
+		y = 12
+		prerequisite = { focus =USA_global_defense_initiative}
+		
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+	focus = {
+		id = USA_ethiopia
+		icon = GFX_focus_generic_self_management
+		x = 21
+		y = 12
+		prerequisite = { focus =USA_global_defense_initiative}
+		
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+	focus = {
+		id = USA_animus_in_consulendo_liber
+		icon = GFX_focus_generic_self_management
+		x = 19
+		y = 13
+		prerequisite = { focus = USA_oceania
+		focus = ethiopia
+		focus = asia
+	}
+		
+
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	
+	}
+
+
+
 
 
 
