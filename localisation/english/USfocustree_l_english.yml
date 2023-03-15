@@ -35,3 +35,29 @@
  USA_cas:0 "Close Air Support Focus"
  USA_paratroopers:0 "Develop Airborn Troops"
  USA_nothing_can_beat_the_us_airforce:0 "Nothing Can Beat The US Airforce"
+
+ #politics
+ USA_truman_presidency:0 "The Truman Presidency"
+ USA_truman_death:0 "Goodbye Mr President"
+ USA_senate_power:0 "Power to the Senate"
+ USA_power_to_the_vice_president:0 "Power to the Vice-President"
+ USA_elections:0 "Emergency Elections"
+ USA_stevenson:0 "The Republicans"
+ USA_eisenhower:0 "The Democrats"
+ USA_civil_rights_act
+
+ #nato
+ USA_north_atlantic_treaty:0 "The North Atlantic Treaty"
+ USA_nato:0 "The Organisation"
+ USA_alliance_first:0 "Alliance Construction"
+ USA_devellop_alliance_members:0 "The North-Atlantic Devellopement Plan"
+ USA_iberia:0 "Invite the two brothers"
+ USA_italy:0 "Invite Italy"
+ USA_greece_and_turkey:0 "Invite the Bosphorus"
+ USA_beyond_na:0 "Beyond North Atlantic"
+ USA_global_defense_initiative:0 "The Global Defense Initiative"
+ USA_asia:0 "Invite the Dragons"
+ USA_oceania:0 "Invite the Kangoroo"
+ USA_ethiopia:0 "Invite the Lion King"
+ USA_animus_in_consulendo_liber:0 "Animus in Consulendo Liber"
+ 

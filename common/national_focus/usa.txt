@@ -1274,70 +1274,8 @@ focus = {
 		}
 	
 	}
-			focus = {
-		id = USA_nato
-		icon = GFX_focus_generic_self_management
-		x = 17
-		y = 6
-		prerequisite = { focus =USA_north_atlantic_treaty}
 
 
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		search_filters = {FOCUS_FILTER_POLITICAL}
-		completion_reward = {
-			add_political_power = 150
-		}
-	
-	}
-
-			focus = {
-		id = USA_us_first
-		icon = GFX_focus_generic_self_management
-		x = 15
-		y = 7
-		prerequisite = { focus =USA_nato}
-		mutually_exclusive = { focus =USA_alliance_first}
-
-
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		search_filters = {FOCUS_FILTER_POLITICAL}
-		completion_reward = {
-			add_political_power = 150
-		}
-	
-	}
 
 		focus = {
 		id = USA_alliance_first
@@ -1345,10 +1283,6 @@ focus = {
 		x = 19
 		y = 7
 		prerequisite = { focus =USA_nato}
-		mutually_exclusive = { focus =USA_us_first}
-
-
-
 		cost = 10
 
 		ai_will_do = {
